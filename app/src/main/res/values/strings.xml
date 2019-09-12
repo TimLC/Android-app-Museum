@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetMusee</string>
+    <string name="Devise">Cultivez-vous!</string>
+    <string name="explications">Scannez un QRcode pour découvrir un nouveau musée ou accédez aux musées que vous avez déjà scannés.</string>
+    <string name="explicationsHisto">Voici les musées que vous avez déjà scannés: </string>
+
+</resources>

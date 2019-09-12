@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoMusee"
+    android:background="@color/colorThree">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOne" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSupprimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer"
+            android:textSize="16dp"
+            android:layout_marginVertical="13dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/mybutton1"/>
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload Image"
+            android:textSize="16dp"
+            android:layout_marginVertical="13dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/mybutton1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textNomHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textAdresseHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textVilleHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textCPHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textDeptHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textRegionHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textSite_webHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textPeriode_ouvertureHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+            android:paddingLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textFermeture_annuelleHisto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="4dp"/>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/colorOne"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" ></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FicheMusee"
+    android:orientation="vertical"
+    android:background="@color/colorThree">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOne" />
+
+    <Button
+        android:id="@+id/buttonAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer le musée"
+        android:textSize="16dp"
+        android:layout_marginVertical="13dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="@drawable/mybutton1"
+        />
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/textVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/textSite_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textPeriode_ouverture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/textFermeture_annuelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/colorOne"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" ></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>
